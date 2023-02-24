@@ -37,3 +37,6 @@ jobs:
           
       - name: list current content of working directory
         run: ls -al
+        
+      - name: run script
+        run: bash ./script.sh
